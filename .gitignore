@@ -16,3 +16,8 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+.c9/
+/public/access-nginx.log
+/public/error-nginx.log
+/public/worker.log
