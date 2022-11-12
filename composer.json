@@ -1,8 +1,9 @@
 {
-    "name": "laravel/laravel",
+    "version": "1.0.0",
+    "name": "darkjinnee/larapack-9x",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Quick start create package laravel",
+    "keywords": ["package", "laravel"],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
