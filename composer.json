@@ -1,12 +1,17 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "darkjinnee/larapack-9x",
     "type": "project",
     "description": "Quick start create package laravel",
-    "keywords": ["package", "laravel"],
+    "keywords": [
+        "package",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "darkjinnee/eloquent-filter": "@dev",
+        "darkjinnee/sanctum-auth": "@dev",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
@@ -65,5 +70,21 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "darkjinnee/eloquent-filter": {
+            "type": "path",
+            "url": "/var/www/app/packages/darkjinnee/eloquent-filter",
+            "options": {
+                "symlink": true
+            }
+        },
+        "darkjinnee/sanctum-auth": {
+            "type": "path",
+            "url": "/var/www/app/packages/darkjinnee/sanctum-auth",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
 }
