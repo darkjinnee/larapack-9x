@@ -10,4 +10,5 @@ parameters:
 	    analyse:
 	        - app/Http/Requests
 	        - app/Http/Resources
+	        - packages/*/*/src/Console/*
 	checkGenericClassInNonGenericObjectType: false
