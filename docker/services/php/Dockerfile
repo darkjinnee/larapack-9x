@@ -11,7 +11,8 @@ RUN apk update && apk upgrade && apk add --no-cache \
     supervisor \
     gettext \
     curl \
-	bash
+	bash \
+	git
 
 RUN docker-php-ext-install -j$(nproc) \
     pdo_mysql \
