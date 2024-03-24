@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 echo $PASSWORD
-./meilisearch --master-key=$PASSWORD
+/bin/meilisearch --master-key=$PASSWORD
