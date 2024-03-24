@@ -39,6 +39,7 @@ services:
     build:
       context: .
       dockerfile: ./docker/services/mysql/Dockerfile
+    platform: linux/x86_64
     image: ${DOCKER_PROJECT_NAME}_mysql
     container_name: ${DOCKER_PROJECT_NAME}_mysql
     networks:
